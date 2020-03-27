@@ -123,7 +123,6 @@ dist_clim <- get_clim_dist()
 # get soil distance
 dist_soil <- get_soil_dist()
 
-
 # get geographical variables
 dist_geo <- get_geo_dist()
 
