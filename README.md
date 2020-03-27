@@ -4,7 +4,9 @@ Data and code for the data analyses used in [Maciá-Vicente, Piepenbring, Koukol
 ## Contents
 ### BLAST_analysis
 Code to compare the ITS sequence from the focal isolates of the study with records in NCBI GenBank and with selected Sequence Read Archive (SRA) objects. The script generates files `blast_nt.csv` and `blast_sra.csv` that are required for the data analyses detailed below.
+
 In order to run this script, it is necessary to have a local BLAST database and the selected SRA objects for comparison, which can be obtained using the code available at [https://github.com/jgmv/local_BLAST_db](https://github.com/jgmv/local_BLAST_db).
+
 This analysis can take several days to run given the number of comparisons, and the intermediate files generated have sizes >2 Gb. Therefore, the relevant files for downstream analyses are provided in [data_analysis](https://github.com/jgmv/helotialean_root_endophytes/data_analysis)
 
 ### OTU_clustering
