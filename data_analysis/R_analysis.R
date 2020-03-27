@@ -23,6 +23,7 @@ strains <- read.csv("data/strains.csv", h = T, sep = ";", row.names = 1)
 refs <- read.csv("data/references.csv", h = T, sep = ";", row.names = 1)
 refs <- get_country(refs)
 
+
 ### calculate new variables
 # conidial length-to-width-ratio
 strains$con_ratio <- strains$con_len / strains$con_wid
