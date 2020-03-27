@@ -113,7 +113,6 @@ plot_spp_ranges(file = "output/ranges.pdf")
 # get phylogenetic distance
 dist_phylo <- get_phylo_dist(tree_strains)
 
-
 # get morphological distance
 dist_morph <- get_morph_dist(pcam)
 
