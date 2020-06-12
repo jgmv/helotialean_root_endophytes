@@ -7,11 +7,11 @@ Code to compare the ITS sequence from the focal isolates of the study with recor
 
 In order to run this script, it is necessary to have a local BLAST database and the selected SRA objects for comparison, which can be obtained using the code available at [https://github.com/jgmv/local_BLAST_db](https://github.com/jgmv/local_BLAST_db).
 
-This analysis can take several days to run given the number of comparisons, and the intermediate files generated have sizes >2&nbsp;Gb. Therefore, the relevant files for downstream analyses are provided in [data_analysis](https://github.com/jgmv/helotialean_root_endophytes/data_analysis)
+This analysis can take several days to run given the number of comparisons, and the intermediate files generated have sizes >2&nbsp;Gb. Therefore, the relevant files for downstream analyses are provided in [data_analysis](https://github.com/jgmv/helotialean_root_endophytes/data_analysis).
 
 ### OTU_clustering
-Data and code to classify to ITS sequences of the focal isolates into Operational Taxonomic Units (OTUs) at 97, 98, and 99 % sequence similarity thresholds. This results in files `otu_list_97.csv`, `otu_list_98.csv`, and `otu_list_99.csv` that are required during the data analyses to generate Fig.&nbsp;S1 of the manuscript.
-These output files are provided in [data_analysis](https://github.com/jgmv/helotialean_root_endophytes/data_analysis)
+Data and code to classify to ITS sequences of the focal isolates into Operational Taxonomic Units (OTUs) at 97, 98, and 99 % sequence similarity thresholds. This results in files `otu_list_97.csv`, `otu_list_98.csv`, and `otu_list_99.csv` that are required during the data analyses to generate Fig.&nbsp;S1 of the manuscript. The NCBI software [`BLASTClust`](https://www.ncbi.nlm.nih.gov/Web/Newsltr/Spring04/blastlab.html) needs to be installed for the script to work.
+These output files are provided in [data_analysis](https://github.com/jgmv/helotialean_root_endophytes/data_analysis).
 
 ### data_analysis
 Data and code for the statistical analyses in R. The following R packages are required: `ape`,`ggplot2`,`ggthemes`,`Hmisc`,`maps`,`PCAmixdata`, `rnaturalearth`, `sp`, and `vegan`.
