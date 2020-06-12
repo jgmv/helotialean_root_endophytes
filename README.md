@@ -10,7 +10,7 @@ In order to run this script, it is necessary to have a local BLAST database and 
 This analysis can take several days to run given the number of comparisons, and the intermediate files generated have sizes >2&nbsp;Gb. Therefore, the relevant files for downstream analyses are provided in [data_analysis](https://github.com/jgmv/helotialean_root_endophytes/data_analysis)
 
 ### OTU_clustering
-Data and code to clasify to ITS sequences of the focal isolates into Operational Taxonomic Units (OTUs) at 97, 98, and 99 % sequence similarity thresholds. This results in files `otu_list_97.csv`, `otu_list_98.csv`, and `otu_list_99.csv` that are required during the data analyses to generate Fig.&nbsp;S1 of the manuscript.
+Data and code to classify to ITS sequences of the focal isolates into Operational Taxonomic Units (OTUs) at 97, 98, and 99 % sequence similarity thresholds. This results in files `otu_list_97.csv`, `otu_list_98.csv`, and `otu_list_99.csv` that are required during the data analyses to generate Fig.&nbsp;S1 of the manuscript.
 These output files are provided in [data_analysis](https://github.com/jgmv/helotialean_root_endophytes/data_analysis)
 
 ### data_analysis
